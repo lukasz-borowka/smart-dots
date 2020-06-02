@@ -5,6 +5,7 @@ PVector goal = new PVector(400, 10);
 void setup()
 {
   size(800, 800);
+  setResizable(true);
 
   test = new Population(1000);
 }
